@@ -33,6 +33,6 @@
     "webpack-node-externals": "^2.5.2"
   },
   "bin": {
-    "create-node-app": "./bin/create-app.js"
+    "create-nodets-app": "./bin/create-app.js"
   }
 }
