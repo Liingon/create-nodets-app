@@ -1,0 +1,11 @@
+# Build directories
+dist
+
+# Dependency directories
+node_modules
+
+# dotenv files
+.env
+
+# IDE directories
+.idea
