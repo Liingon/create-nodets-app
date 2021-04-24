@@ -1,5 +1,5 @@
 {
-  "name": "create-node-app",
+  "name": "create-nodets-app",
   "version": "0.1.0",
   "description": "A boilerplate for nodejs apps. It includes Typescript, eslint, Prettier, Husky, Webpack and Nodemon.",
   "scripts": {
