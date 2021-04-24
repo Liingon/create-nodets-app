@@ -48,7 +48,7 @@ async function setup() {
     execSync('npm install');
 
     console.log('Cleaning up...');
-    fs.rmSync(path.join(projectPath, 'README.md'));
+    fs.unlinkSync(path.join(projectPath, 'README.md'));
     fs.copyFileSync(path.join(projectPath, '/bin/app_readme.md'), path.join(projectPath, 'README.md'))
     fs.rmdirSync(path.join(projectPath, '.git'), { recursive: true });
     fs.rmdirSync(path.join(projectPath, 'bin'), { recursive: true });
